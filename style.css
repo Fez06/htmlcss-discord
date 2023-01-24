@@ -1,0 +1,172 @@
+/* ---------------------------RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------COMMON */
+.container {
+    margin: 0 auto;
+}
+
+.container.big {
+    max-width: 1200px;
+}
+
+.container.small {
+    max-width: 900px;
+}
+
+.header-bar > div, .header-bar > nav,
+.header-bot > div, section > div,
+section > aside, .footer-top > div,
+.footer-bot div {
+    border: 2px dashed black;
+}
+
+nav, .logo, .login {
+    padding: 10px;
+}
+
+section:nth-child(even) {
+    background-color: #d3d3d3;
+}
+/* ---------------------------DEBUG */
+
+.container.small {
+    height: 400px;
+}
+
+.col-big, .col-small, .footer-top {
+    height: 600px;
+}
+
+.very-big {
+    height: 900px;
+}
+
+/* ---------------------------HEADER */
+
+header {
+    border-bottom: 4px solid #add8e6;
+}
+
+.header-top {
+    background-color: #add8e6;
+    padding: 15px 0;
+}
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: orange;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+}
+
+.logo, .login {
+    width: 20%;
+}
+
+.login {
+    text-align: right;
+}
+
+.header-links {
+    flex-grow: 1;
+}
+/* ------  */
+
+.header-bot {
+    background-color: #00008b;
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container.small {
+    background-color: pink;
+    width: 900px;
+}
+/* --------------------------- FINE HEADER */
+
+/* ---------------------------MAIN */
+
+section {
+    padding: 50px;
+    display: flex;
+}
+
+.col-big {
+    width: 60%;
+    background-color: blue;
+}
+
+.col-small {
+    width: 40%;
+    background-color: pink;
+}
+
+.very-big {
+    background-color: green;
+    width: 100%;
+}
+/* --------------------------- FINE MAIN */
+
+/* ---------------------------FOOTER */
+
+footer {
+    background-color: #23272a;
+    padding: 10px 50px 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+}
+
+
+.container-colonne-piccole {
+    flex-basis: 70%;
+    background-color: #20b2aa;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colonna-piccola {
+    background-color: #20b2aa;
+    flex-basis: 25%;
+    border: 2px dashed white;
+}
+
+.colonna-grande {
+    background-color: #f08080;
+    flex-basis: 30%;
+}
+
+hr {
+    color: lightgray;
+    margin: 50px 0;
+}
+/* --------- */
+
+.footer-bot {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo-footer, .bottone {
+    padding: 3px;
+    background-color: #f08080;
+}
+/* --------------------------- FINE FOOTER */

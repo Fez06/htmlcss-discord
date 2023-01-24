@@ -34,7 +34,10 @@ section:nth-child(even) {
     background-color: #d3d3d3;
 }
 
-link
+.btn {
+    padding: 8px 15px;
+    border-radius: 60px;
+}
 /* ---------------------------DEBUG */
 
 .container.small {
@@ -55,7 +58,7 @@ header {
     border-bottom: 4px solid #add8e6;
     background-image: url(/img/jumbo.png);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .header-top {
@@ -75,6 +78,11 @@ ul {
     gap: 10px;
     justify-content: center;
 }
+
+.logo {
+    
+}
+
 
 .logo, .login {
     width: 20%;

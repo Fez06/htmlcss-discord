@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* ---------------------------COMMON */
@@ -32,6 +33,7 @@ nav, .logo, .login {
 
 section:nth-child(even) {
     background-color: #d3d3d3;
+    flex-direction: row-reverse;
 }
 
 .btn {
@@ -41,6 +43,10 @@ section:nth-child(even) {
 
 header, footer {
     color: white;
+}
+
+span {
+    font-weight: bold;
 }
 /* ---------------------------DEBUG */
 
@@ -83,11 +89,6 @@ ul {
     justify-content: center;
 }
 
-.logo {
-    
-}
-
-
 .logo, .login {
     width: 20%;
 }
@@ -121,6 +122,7 @@ ul {
 
 .container.small h1 {
     padding-top: 120px;
+    font-size: 40px;
 }
 
 .header-par {
@@ -154,16 +156,58 @@ section {
 .col-big {
     width: 60%;
     background-color: blue;
+    display: flex;
+    align-items: center;
 }
 
 .col-small {
     width: 40%;
     background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.col-small h1 {
+    font-size: 40px;
+    line-height: 1.3;
+}
+
+.col-small div {
+    line-height: 1.5;
 }
 
 .very-big {
     background-color: green;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 60px 0;
+}
+
+.very-big .btn,.green-par {
+    padding-top: 20px;
+}
+
+.very-big h1 {
+    font-size: 35px;
+}
+
+.very-big .green-par {
+    font-size: 14px;
+}
+
+.very-big h3 {
+    padding: 20px 0;
+}
+#scarica-blu {
+    background-color: #7289da;
+    padding: 10px 14px;
+    color: white;
 }
 /* --------------------------- FINE MAIN */
 
@@ -196,12 +240,16 @@ footer {
 .colonna-grande {
     background-color: #f08080;
     flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
 }
 
 hr {
     color: lightgray;
     margin: 50px 0;
 }
+
+
 /* --------- */
 
 .footer-bot {

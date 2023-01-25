@@ -35,8 +35,12 @@ section:nth-child(even) {
 }
 
 .btn {
-    padding: 8px 15px;
+    padding: 1.5% 2%;
     border-radius: 60px;
+}
+
+header, footer {
+    color: white;
 }
 /* ---------------------------DEBUG */
 
@@ -75,7 +79,7 @@ header {
 ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 15px;
     justify-content: center;
 }
 
@@ -88,8 +92,9 @@ ul {
     width: 20%;
 }
 
-.login {
+.login, #log{
     text-align: right;
+    padding: 7px 14px;
 }
 
 .header-links {
@@ -108,6 +113,34 @@ ul {
 .container.small {
     /* background-color: pink; */
     width: 900px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container.small h1 {
+    padding-top: 120px;
+}
+
+.header-par {
+    line-height: 1.4;
+    padding: 45px 0 20px;
+}
+
+.header-bot-btn {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.scarica {
+    background-color: white;
+    color: black;
+}
+
+.apri-nel-brows {
+    background-color: #23272a;
 }
 /* --------------------------- FINE HEADER */
 

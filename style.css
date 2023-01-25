@@ -244,11 +244,17 @@ footer {
     flex-direction: column;
 }
 
+.footer-top > div {
+    padding: 50px 0 0 40px;
+}
+
+.colonna-grande h1 {
+    
+}
 hr {
     color: lightgray;
     margin: 50px 0;
 }
-
 
 /* --------- */
 

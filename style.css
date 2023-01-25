@@ -20,9 +20,9 @@
     max-width: 900px;
 }
 
-.header-bar > div, .header-bar > nav,
+/* .header-bar > div, .header-bar > nav,
 .header-bot > div, section > div,
-section > aside, .footer-top > div,
+section > aside, .footer-top > div, */
 .footer-bot div {
     border: 2px dashed black;
 }
@@ -155,14 +155,15 @@ section {
 
 .col-big {
     width: 60%;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .col-small {
     width: 40%;
-    background-color: pink;
+    /* background-color: pink; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -179,7 +180,7 @@ section {
 }
 
 .very-big {
-    background-color: green;
+    /* background-color: green; */
     width: 100%;
     display: flex;
     flex-direction: column;
